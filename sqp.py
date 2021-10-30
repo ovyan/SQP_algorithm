@@ -54,5 +54,5 @@ def SQP(x0, l0):
 x0 = np.array([3, 3])
 l0 = 3
 x, l = SQP(x0, l0)
-print("min f", f(x))
-print("min x", x)
+print('min f', f(x))
+print('min x', x)
